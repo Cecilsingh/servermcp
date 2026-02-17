@@ -1,0 +1,27 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for remote host with /efs (default) file system access",
+  "type": "module",
+  "main": "mcp-server.js",
+  "bin": {
+    "mcp-server": "./mcp-server.js"
+  },
+  "scripts": {
+    "start": "node mcp-server.js",
+    "test":  "echo \"no specified tests\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "automation",
+    "file-system"
+  ],
+  "author": "",
+  "license": "MIT"
+}
